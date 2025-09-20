@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+start = 0
+stop = 10
+n = 100
+
+x = np.linspace(start, stop, n)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.show()
